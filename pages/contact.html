@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact</title>
 </head>
-<body>
+<body style="background-color: rosybrown;">
         <!--Navigation-->
     <header>
         <nav>
-            <a href="./index.html">Home</a>
-            <a href="./pages/about.html">About Us</a>
-            <a href="./pages/products.html">Our Products</a>
-            <a href="./pages/enquiry.html">Enquiry</a>
-            <a href="./pages/contact.html">Contact Us</a>
+            <a href="../index.html">Home</a>
+            <a href="./about.html">About Us</a>
+            <a href="./products.html">Products</a>
+            <a href="./contact.html">Contact Us</a>
+            <a href="./enquiry.html">Enquiry</a>
         </nav>
     </header>
     <h2>Registration form:</h2>
@@ -21,16 +21,20 @@
         <table>
             <!--Textnoxes-->
             <tr>
-                <td width="100px">Name</td>
-                <td><input type="password" name="name" placeholder="Enter your name" required></td>
+                <td width="100px">First Name</td>
+                <td><input type="text" name="name" placeholder="Enter your First Name" required></td>
             </tr>
             <tr>
                 <td width="100px">Surname</td>
-                <td><input type="text" name="surname" required></td>
+                <td><input type="text" name="surname" placeholder="Enter your Surname" required></td>
+            </tr>
+            <tr>
+                <td width="100px">Email</td>
+                <td><input type="text" name="Email" placeholder="Enter your email" required></td>
             </tr>
             <!--Dropdown list-->
             <tr>
-                <td width="100px">city</td>
+                <td width="100px">Where do you reside in?</td>
                 <td>
                     <select name="city">
                     <option>--Select--</option>
@@ -38,19 +42,33 @@
                     <option>--Cape Town--</option>
                     <option>--Johannesburg--</option>
                     <option>--Polokwane--</option>
-                    <option>--Mbombbela--</option>
+                    <option>--Rustenburg--</option>
+                    <option>Mbombela</option>
+                    <option>Kimberley</option>
+                    <option>Benoni</option>
+                    <option>Gqeberha</option>
+                    <option>East London</option>
+                    <option>Stellenbosch</option>
                 </select>
                 </td> 
             </tr>
                 <!--Radio Buttons-->
                 <tr>
                     <td width="100px"> Gender:</td>
-                    <td><input type="radio" checked="checked" name="male" value="male">Male</type></td>                    
+                    <td><input type="radio" name="male" value="male">Male</type></td>                    
                 </tr>
                 <tr>
                     <td width="100px"></td>
                     <td><input type="radio" name="female" value="female">Female</td>                    
+                </tr>
+                <tr>
+                    <td width="100px"></td>
+                    <td><input type="radio" name="Non-Binary" value="Non-Binary">Non-Binary</td>                    
                 </tr>   
+                <tr>
+                    <td width="100px"></td>
+                    <td><input type="radio" name="Prefer not to say" value="Prefer not to say">Prefer not to say</td>                    
+                </tr>      
             <!--Checkboxes-->
             <tr>
                 <td width="100px">Where did you hear about us?</td>
@@ -69,10 +87,9 @@
                 <td width="100px"></td>
                 <td><input type="checkbox" name="Radio" value="Radio">Radio</td>
             </tr>
-            <!--Attachment-->
             <tr>
-                <td width="100">Attachments</td>
-                <td><input type="file" name="Document"></td>
+                <td width="100px"></td>
+                <td><input type="checkbox" name="Social Media" value="Social Media">Social Media</td>
             </tr>
             <!--Text area-->
             <tr>
@@ -93,7 +110,9 @@
                 </td>
             </tr>         
         </table>
-    </form>
-   
+    </form> 
+    <footer>
+        <p style="text-align: center;">&copy; 2025 TSHIDI'S KITCHEN</p>   
+     </footer>  
 </body>
 </html>

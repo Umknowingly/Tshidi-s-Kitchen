@@ -109,3 +109,12 @@ My POE part 2
 
     Screenshots
     - Are in the assets folder whereby they are named mobile, tablet and laptop
+
+    REFERENCES
+    geeksforgeeks. (2025, July 11). geeksforgeeks. Retrieved from geeksforgeeks: https://www.geeksforgeeks.org/html/html5-semantics/
+
+    Schools, W. (2025, September 16). W3 SCHOOLS. Retrieved from W3 SCHOOLS: https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+
+    geeksforgeeks. (2025,  July 23). geeksforgeeks. Retrieved from geeksforgeeks: https://www.geeksforgeeks.org/html/html-responsive-web-design/
+
+    geeksforgeeks. (2025, May 02). geeksforgeeks. Retrieved from geeksforgeeks: https://www.geeksforgeeks.org/html/html-span-tag/

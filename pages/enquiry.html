@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enquiry </title>
+    <meta name="description" content="Enquire about TSHIDI'S KITCHEN products, catering, and partnerships">
+    <title>Enquiry - TSHIDI'S KITCHEN</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
-<body style="background-color: rosybrown;">
-    <header>
-        <nav>
+<body class="class-for-enquiry">
+    <header role="banner">
+        <nav class="smooth" role="navigation" aria-label="Main navigation">
             <a href="../index.html">Home</a>
             <a href="./about.html">About Us</a>
             <a href="./products.html">Products</a>
@@ -15,11 +18,95 @@
             <a href="./enquiry.html">Enquiry</a>
         </nav>
     </header>
-    <h1>Get In Touch With Us</h1>
-    <p>Your support can make a real difference in our community</p>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe6AYx-cm9CftS3DpREx4HHAJYYbWahK8VtofUK4TY793NEPw/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> 
-    <footer>
-        <p style="text-align: center;">&copy; 2025 TSHIDI'S KITCHEN</p>   
-     </footer>  
+    
+    <main role="main">
+        <section aria-labelledby="enquiry-heading">
+            <h1 id="enquiry-heading">Get In Touch With Us</h1>
+            <p>Your interest in TSHIDI'S KITCHEN means the world to us. Whether you're interested in our products, catering services, or potential partnerships, we're here to help.</p>
+            
+            <div class="enquiry-types">
+                <article class="enquiry-option">
+                    <h2>Product Enquiries</h2>
+                    <p>Questions about our sauces, relishes, or food products? Want to know where to buy them or request a specific product?</p>
+                </article>
+                
+                <article class="enquiry-option">
+                    <h2>Catering Services</h2>
+                    <p>Planning an event? Let us bring the taste of Limpopo to your special occasion with our catering services.</p>
+                </article>
+                
+                <article class="enquiry-option">
+                    <h2>Wholesale & Partnerships</h2>
+                    <p>Interested in stocking our products in your store or exploring partnership opportunities?</p>
+                </article>
+                
+                <article class="enquiry-option">
+                    <h2>Feedback & Suggestions</h2>
+                    <p>We value your feedback! Share your experience with our products or suggest improvements.</p>
+                </article>
+            </div>
+        </section>
+        
+        <section aria-labelledby="google-form">
+            <h2 id="google-form">Submit Your Enquiry</h2>
+            <p>Please use the form below to send us your enquiry. We typically respond within 24-48 hours.</p>
+            
+            <div class="form-container">
+                <iframe 
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSe6AYx-cm9CftS3DpREx4HHAJYYbWahK8VtofUK4TY793NEPw/viewform?embedded=true" 
+                    width="100%" 
+                    height="520" 
+                    frameborder="0" 
+                    marginheight="0" 
+                    marginwidth="0"
+                    title="TSHIDI'S KITCHEN Enquiry Form">
+                    Loading…
+                </iframe>
+            </div>
+            
+            <div class="alternative-contact">
+                <h3>Prefer to contact us directly?</h3>
+                <p>You can also reach us through:</p>
+                <ul>
+                    <li><strong>Email:</strong> <a href="mailto:TshidisKitchen@gmail.com">TshidisKitchen@gmail.com</a></li>
+                    <li><strong>Phone:</strong> <a href="tel:+27123456789">+27 12 345 6789</a></li>
+                    <li><strong>Visit:</strong> 123 Flavour Street, Polokwane, Limpopo</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section aria-labelledby="faq-heading">
+            <h2 id="faq-heading">Frequently Asked Questions</h2>
+            
+            <details>
+                <summary>Where can I buy TSHIDI'S KITCHEN products?</summary>
+                <p>Our products are available at select stores across Limpopo and through our direct delivery service. Check our <a href="./products.html">Products page</a> for more information.</p>
+            </details>
+            
+            <details>
+                <summary>Do you offer delivery services?</summary>
+                <p>Yes, we offer delivery within a 15km radius of our kitchen. For larger orders or catering, we can arrange delivery to wider areas.</p>
+            </details>
+            
+            <details>
+                <summary>Are your products suitable for people with dietary restrictions?</summary>
+                <p>Many of our products are vegetarian-friendly. We're working on expanding our range to accommodate various dietary needs. Please contact us with specific requirements.</p>
+            </details>
+            
+            <details>
+                <summary>Can I visit your kitchen?</summary>
+                <p>Yes! We welcome visitors during our operating hours. You can sample our products and see where the magic happens.</p>
+            </details>
+            
+            <details>
+                <summary>Do you ship products internationally?</summary>
+                <p>Currently, we only ship within South Africa. We're exploring international shipping options for the future.</p>
+            </details>
+        </section>
+    </main>
+    
+    <footer role="contentinfo">
+        <p>&copy; 2025 TSHIDI'S KITCHEN | Authentic South African Cuisine</p>
+    </footer>
 </body>
 </html>

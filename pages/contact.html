@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <meta name="description" content="Contact TSHIDI'S KITCHEN - Get in touch with us for reservations and inquiries">
+    <title>Contact Us - TSHIDI'S KITCHEN</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
-<body style="background-color: rosybrown;">
-        <!--Navigation-->
-    <header>
-        <nav>
+<body class="class-for-contact">
+    <header role="banner">
+        <nav class="smooth" role="navigation" aria-label="Main navigation">
             <a href="../index.html">Home</a>
             <a href="./about.html">About Us</a>
             <a href="./products.html">Products</a>
@@ -16,103 +18,165 @@
             <a href="./enquiry.html">Enquiry</a>
         </nav>
     </header>
-    <h2>Registration form:</h2>
-    <form action="" method="post">
-        <table>
-            <!--Textnoxes-->
-            <tr>
-                <td width="100px">First Name</td>
-                <td><input type="text" name="name" placeholder="Enter your First Name" required></td>
-            </tr>
-            <tr>
-                <td width="100px">Surname</td>
-                <td><input type="text" name="surname" placeholder="Enter your Surname" required></td>
-            </tr>
-            <tr>
-                <td width="100px">Email</td>
-                <td><input type="text" name="Email" placeholder="Enter your email" required></td>
-            </tr>
-            <!--Dropdown list-->
-            <tr>
-                <td width="100px">Where do you reside in?</td>
-                <td>
-                    <select name="city">
-                    <option>--Select--</option>
-                    <option>--Durban--</option>
-                    <option>--Cape Town--</option>
-                    <option>--Johannesburg--</option>
-                    <option>--Polokwane--</option>
-                    <option>--Rustenburg--</option>
-                    <option>Mbombela</option>
-                    <option>Kimberley</option>
-                    <option>Benoni</option>
-                    <option>Gqeberha</option>
-                    <option>East London</option>
-                    <option>Stellenbosch</option>
-                </select>
-                </td> 
-            </tr>
-                <!--Radio Buttons-->
-                <tr>
-                    <td width="100px"> Gender:</td>
-                    <td><input type="radio" name="male" value="male">Male</type></td>                    
-                </tr>
-                <tr>
-                    <td width="100px"></td>
-                    <td><input type="radio" name="female" value="female">Female</td>                    
-                </tr>
-                <tr>
-                    <td width="100px"></td>
-                    <td><input type="radio" name="Non-Binary" value="Non-Binary">Non-Binary</td>                    
-                </tr>   
-                <tr>
-                    <td width="100px"></td>
-                    <td><input type="radio" name="Prefer not to say" value="Prefer not to say">Prefer not to say</td>                    
-                </tr>      
-            <!--Checkboxes-->
-            <tr>
-                <td width="100px">Where did you hear about us?</td>
-                <td><input type="checkbox" name="television" value="television">Television</td>
-
-            </tr>
-            <tr>
-                <td width="100px"></td>
-                <td><input type="checkbox" name="Newspaper" value="Newspaper">Newspaper</td>
-            </tr> 
-            <tr>
-                <td width="100px"></td>
-                <td><input type="checkbox" name="internet" value="internet">Internet</td>
-            </tr>
-            <tr>
-                <td width="100px"></td>
-                <td><input type="checkbox" name="Radio" value="Radio">Radio</td>
-            </tr>
-            <tr>
-                <td width="100px"></td>
-                <td><input type="checkbox" name="Social Media" value="Social Media">Social Media</td>
-            </tr>
-            <!--Text area-->
-            <tr>
-                <td width="100">Comments:</td>
-                <td>
-                    <textarea rows="10" cols="25"></textarea>
-                </td>
-            </tr>  
-            <!--Submit button-->
-            <tr>
-                <td width="100px"></td>
-                <td><input type="submit" name="submit" value="submit"></td>
-            </tr> 
-            <tr>
-                <td>
-                    <h1>Located here</h1>
-                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915671.5742636207!2d23.250797887499992!3d-26.4193802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95ab1eea819287%3A0x2b060f0c46bc15f4!2sTshidi&#39;s%20Kitchen!5e1!3m2!1sen!2sza!4v1756194716991!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
-                </td>
-            </tr>         
-        </table>
-    </form> 
-    <footer>
-        <p style="text-align: center;">&copy; 2025 TSHIDI'S KITCHEN</p>   
-     </footer>  
+    
+    <main role="main">
+        <section aria-labelledby="contact-heading">
+            <h1 id="contact-heading">Get In Touch With TSHIDI'S KITCHEN</h1>
+            <p>We'd love to hear from you! Whether you have questions about our products, want to place an order, or just want to share your experience, please reach out to us.</p>
+        </section>
+        
+        <section aria-labelledby="registration-form">
+            <h2 id="registration-form">Customer Registration Form</h2>
+            <p>Join our foodie community to receive updates on new products, special offers, and exclusive recipes.</p>
+            
+            <form action="#" method="post" role="form" aria-labelledby="registration-form">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    
+                    <div class="form-group">
+                        <label for="firstName">First Name *</label>
+                        <input type="text" id="firstName" name="firstName" placeholder="Enter your First Name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="surname">Surname *</label>
+                        <input type="text" id="surname" name="surname" placeholder="Enter your Surname" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                    </div>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Location Information</legend>
+                    
+                    <div class="form-group">
+                        <label for="city">Where do you reside?</label>
+                        <select id="city" name="city" required>
+                            <option value="">-- Select City --</option>
+                            <option value="Durban">Durban</option>
+                            <option value="Cape Town">Cape Town</option>
+                            <option value="Johannesburg">Johannesburg</option>
+                            <option value="Polokwane">Polokwane</option>
+                            <option value="Rustenburg">Rustenburg</option>
+                            <option value="Mbombela">Mbombela</option>
+                            <option value="Kimberley">Kimberley</option>
+                            <option value="Benoni">Benoni</option>
+                            <option value="Gqeberha">Gqeberha</option>
+                            <option value="East London">East London</option>
+                            <option value="Stellenbosch">Stellenbosch</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="address">Delivery Address (if different)</label>
+                        <textarea id="address" name="address" rows="3" placeholder="Enter your full address for delivery"></textarea>
+                    </div>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Personal Details</legend>
+                    
+                    <div class="form-group">
+                        <p>Gender:</p>
+                        <div class="radio-group">
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Male</label>
+                            
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Female</label>
+                            
+                            <input type="radio" id="non-binary" name="gender" value="non-binary">
+                            <label for="non-binary">Non-Binary</label>
+                            
+                            <input type="radio" id="prefer-not-to-say" name="gender" value="prefer-not-to-say">
+                            <label for="prefer-not-to-say">Prefer not to say</label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <p>Where did you hear about us? (Select all that apply)</p>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="television" name="source" value="television">
+                            <label for="television">Television</label>
+                            
+                            <input type="checkbox" id="newspaper" name="source" value="newspaper">
+                            <label for="newspaper">Newspaper</label>
+                            
+                            <input type="checkbox" id="internet" name="source" value="internet">
+                            <label for="internet">Internet</label>
+                            
+                            <input type="checkbox" id="radio" name="source" value="radio">
+                            <label for="radio">Radio</label>
+                            
+                            <input type="checkbox" id="social-media" name="source" value="social-media">
+                            <label for="social-media">Social Media</label>
+                            
+                            <input type="checkbox" id="word-of-mouth" name="source" value="word-of-mouth">
+                            <label for="word-of-mouth">Word of Mouth</label>
+                        </div>
+                    </div>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Your Feedback</legend>
+                    
+                    <div class="form-group">
+                        <label for="comments">Comments, Questions, or Special Requests:</label>
+                        <textarea id="comments" name="comments" rows="5" placeholder="Tell us what's on your mind..."></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="favorite-dish">What's your favorite dish from our menu?</label>
+                        <input type="text" id="favorite-dish" name="favorite-dish" placeholder="e.g., Mala Mogodu, Vetkoek">
+                    </div>
+                </fieldset>
+                
+                <div class="form-group">
+                    <button type="submit" class="submit-btn">Join Our Foodie Community</button>
+                </div>
+            </form>
+        </section>
+        
+        <section aria-labelledby="location-heading">
+            <h2 id="location-heading">Visit Our Kitchen</h2>
+            <p>Come experience the authentic taste of Limpopo at our location. We'd love to welcome you!</p>
+            
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915671.5742636207!2d23.250797887499992!3d-26.4193802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95ab1eea819287%3A0x2b060f0c46bc15f4!2sTshidi's%20Kitchen!5e1!3m2!1sen!2sza!4v1756194716991!5m2!1sen!2sza" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Location of TSHIDI'S KITCHEN on Google Maps">
+                </iframe>
+            </div>
+            
+            <div class="contact-details">
+                <h3>Contact Information</h3>
+                <address>
+                    <p><strong>Address:</strong> 123 Flavour Street, Polokwane, Limpopo, South Africa</p>
+                    <p><strong>Phone:</strong> <a href="tel:+27123456789">+27 12 345 6789</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:TshidisKitchen@gmail.com">TshidisKitchen@gmail.com</a></p>
+                    <p><strong>Operating Hours:</strong> Monday-Saturday: 8:00 AM - 8:00 PM | Sunday: 9:00 AM - 5:00 PM</p>
+                </address>
+            </div>
+        </section>
+    </main>
+    
+    <footer role="contentinfo">
+        <p>&copy; 2025 TSHIDI'S KITCHEN | Authentic South African Cuisine</p>
+    </footer>
 </body>
 </html>

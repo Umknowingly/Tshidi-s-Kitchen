@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products</title>
+    <meta name="description" content="Explore TSHIDI'S KITCHEN menu - authentic South African dishes and drinks">
+    <title>Our Menu - TSHIDI'S KITCHEN</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
-<body style="background-color: rosybrown;">
-    <header>
+<body class="class-for-products">
+    <header role="banner">
         <h1>OUR MENU</h1>
-        <nav>
+        <nav class="smooth" role="navigation" aria-label="Main navigation">
             <a href="../index.html">Home</a>
             <a href="./about.html">About Us</a>
             <a href="./products.html">Products</a>
@@ -16,44 +19,223 @@
             <a href="./enquiry.html">Enquiry</a>
         </nav>
     </header>
-    <main>
-        <section>
-            <h2>Main</h2>
-            <p>Here we have a variaty of delicious delicacy</p>
+    
+    <main role="main">
+        <section aria-labelledby="menu-intro">
+            <h2 id="menu-intro">Delicious South African Delicacies</h2>
+            <p>Experience the authentic taste of Limpopo with our carefully crafted menu. Each dish tells a story of tradition, family, and the rich culinary heritage of South Africa.</p>
         </section>
-        <section>
-            <ul>
-                <li>Chicken salad - R150.00</li>
-                <li>mala-mogodu - R1oo</li>
-                <li>Greek salad - R75</li>                
-                <li>pap - R20</li>
-                <li>Russian Pie - R25</li>
-                <li>Steak with salad - R125</li>
-                <li>vetkoek - R10</li>
-                <li>Potjiekos - R87 </li>
-            </ul>
+        
+        <section aria-labelledby="main-dishes">
+            <h2 id="main-dishes" class="Underline">Main Courses</h2>
+            <p>Our main dishes are prepared with the same care and attention as in a traditional South African home kitchen.</p>
+            
+            <div class="menu-grid">
+                <article class="menu-item">
+                    <div class="item-image">
+                        <img src="../assets/Chicken salad.jpg" alt="Fresh chicken salad with grilled chicken and special dressing">
+                    </div>
+                    <div class="item-details">
+                        <h3>Chicken Salad</h3>
+                        <p>Fresh garden salad with tender grilled chicken, topped with our special dressing</p>
+                        <span class="price">R150.00</span>
+                    </div>
+                </article>
+                
+                <article class="menu-item">
+                    <div class="item-image">
+                        <img src="../assets/mala-mogodu.jpg" alt="Traditional tripe dish slow-cooked to perfection">
+                    </div>
+                    <div class="item-details">
+                        <h3>Mala Mogodu</h3>
+                        <p>Traditional tripe dish slow-cooked to perfection with special spices</p>
+                        <span class="price">R100.00</span>
+                    </div>
+                </article>
+                
+                <article class="menu-item">
+                    <div class="item-image">
+                        <img src="../assets/Greek salad.jpg" alt="Fresh Mediterranean salad with feta and olives">
+                    </div>
+                    <div class="item-details">
+                        <h3>Greek Salad</h3>
+                        <p>Fresh Mediterranean salad with feta cheese and olives</p>
+                        <span class="price">R75.00</span>
+                    </div>
+                </article>
+                
+                <article class="menu-item">
+                    <div class="item-image">
+                        <img src="../assets/Pap with Chakalaka.webp" alt="Traditional maize meal with signature chakalaka relish">
+                    </div>
+                    <div class="item-details">
+                        <h3>Pap with Chakalaka</h3>
+                        <p>Traditional maize meal served with our signature chakalaka relish</p>
+                        <span class="price">R20.00</span>
+                    </div>
+                </article>
+                
+                <article class="menu-item">
+                    <div class="item-image">
+                        <img src="../assets/Russian Pie.jpg" alt="Savory pastry filled with spiced mince">
+                    </div>
+                    <div class="item-details">
+                        <h3>Russian Pie</h3>
+                        <p>Savory pastry filled with spiced mince</p>
+                        <span class="price">R25.00</span>
+                    </div>
+                </article>
+                
+                <article class="menu-item">
+                    <div class="item-image">
+                        <img src="../assets/Steak with salad.jpg" alt="Juicy steak grilled to perfection with fresh salad">
+                    </div>
+                    <div class="item-details">
+                        <h3>Steak with Salad</h3>
+                        <p>Juicy steak grilled to perfection, served with fresh salad</p>
+                        <span class="price">R125.00</span>
+                    </div>
+                </article>
+                
+                <article class="menu-item">
+                    <div class="item-image">
+                        <img src="../assets/vetkoek.jpg" alt="Traditional fried dough bread">
+                    </div>
+                    <div class="item-details">
+                        <h3>Vetkoek</h3>
+                        <p>Traditional fried dough bread, perfect with savory fillings</p>
+                        <span class="price">R10.00</span>
+                    </div>
+                </article>
+                
+                <article class="menu-item">
+                    <div class="item-image">
+                        <img src="../assets/Potjiekos.webp" alt="Traditional slow-cooked stew in a three-legged pot">
+                    </div>
+                    <div class="item-details">
+                        <h3>Potjiekos</h3>
+                        <p>Traditional slow-cooked stew made in a three-legged pot</p>
+                        <span class="price">R87.00</span>
+                    </div>
+                </article>
+            </div>
         </section>
-        <section>
-            <h2>Drinks</h2>
+        
+        <section aria-labelledby="drinks">
+            <h2 id="drinks" class="Underline">Beverages</h2>
+            <p>Quench your thirst with our selection of refreshing drinks, including traditional South African favorites.</p>
+            
+            <div class="menu-grid">
+                <article class="menu-item">
+                    <div class="item-image">
+                        <img src="../assets/Cocktail drink.jpg" alt="Signature cocktail with a South African twist">
+                    </div>
+                    <div class="item-details">
+                        <h3>Cocktail Special</h3>
+                        <p>Our signature cocktail with a South African twist</p>
+                        <span class="price">R95.00</span>
+                    </div>
+                </article>
+                
+                <article class="menu-item">
+                    <div class="item-image">
+                        <img src="../assets/Cofffe drink.jpg" alt="Rich South African coffee blend">
+                    </div>
+                    <div class="item-details">
+                        <h3>Premium Coffee</h3>
+                        <p>Rich South African coffee blend</p>
+                        <span class="price">R50.00</span>
+                    </div>
+                </article>
+                
+                <article class="menu-item">
+                    <div class="item-image">
+                        <img src="../assets/Lemonade drink.jpg" alt="Refreshing homemade lemonade">
+                    </div>
+                    <div class="item-details">
+                        <h3>Homemade Lemonade</h3>
+                        <p>Refreshing lemonade made with fresh lemons</p>
+                        <span class="price">R24.00</span>
+                    </div>
+                </article>
+                
+                <article class="menu-item">
+                    <div class="item-image">
+                        <img src="../assets/Lime motjto drink.jpg" alt="Cooling mint and lime beverage">
+                    </div>
+                    <div class="item-details">
+                        <h3>Lime Mojito</h3>
+                        <p>Cooling mint and lime beverage</p>
+                        <span class="price">R30.00</span>
+                    </div>
+                </article>
+                
+                <article class="menu-item">
+                    <div class="item-image">
+                        <img src="../assets/Milkshake drink.jpg" alt="Creamy milkshake in various flavors">
+                    </div>
+                    <div class="item-details">
+                        <h3>Creamy Milkshake</h3>
+                        <p>Thick, creamy milkshake in various flavors</p>
+                        <span class="price">R50.00</span>
+                    </div>
+                </article>
+            </div>
         </section>
-        <section>
-            <ul>
-               <li>Cocktail drink - R95</li> 
-               <li>Cofffe drink - R50</li>
-               <li>Lemonade drink - R24</li>
-               <li>Lime motjto drink - R30</li>
-               <li>Milkshake drink - R50</li>
-            </ul>
+        
+        <section aria-labelledby="sauces">
+            <h2 id="sauces" class="Underline">Signature Sauces & Relishes</h2>
+            <p>Take the taste of TSHIDI'S KITCHEN home with our bottled sauces and relishes.</p>
+            
+            <div class="product-gallery">
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="../assets/marula-sauce.jpg" alt="Marula & Pepper Sauce bottle">
+                    </div>
+                    <div class="product-info">
+                        <h3>Marula & Pepper Sauce (250ml)</h3>
+                        <p>Our award-winning sauce with a unique Limpopo twist</p>
+                        <span class="price">R45.00</span>
+                    </div>
+                </article>
+                
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="../assets/chakalaka-jar.jpg" alt="Traditional Chakalaka jar">
+                    </div>
+                    <div class="product-info">
+                        <h3>Traditional Chakalaka (500ml)</h3>
+                        <p>Spicy vegetable relish perfect with pap, bread, or meats</p>
+                        <span class="price">R35.00</span>
+                    </div>
+                </article>
+                
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="../assets/peri-peri.jpg" alt="Peri-Peri Sauce bottle">
+                    </div>
+                    <div class="product-info">
+                        <h3>Peri-Peri Sauce (200ml)</h3>
+                        <p>Fiery African bird's eye chili sauce</p>
+                        <span class="price">R40.00</span>
+                    </div>
+                </article>
+            </div>
         </section>
-        <br>
-        <br>
-        <section>
-            <h2>Contact</h2>
-            <p>If you have any questions, please email us at TshidisKitchen@gmail.com.</p>
+        
+        <section class="contact-info" aria-labelledby="contact-heading">
+            <h2 id="contact-heading" class="Underline">Contact & Orders</h2>
+            <p>For reservations, catering inquiries, or to place an order, please contact us:</p>
+            <address>
+                Email: <a href="mailto:TshidisKitchen@gmail.com">TshidisKitchen@gmail.com</a><br>
+                Phone: <a href="tel:+27123456789">+27 12 345 6789</a>
+            </address>
+            <p>We offer delivery services within a 15km radius. Minimum order for delivery: R100.</p>
         </section>
     </main>
-    <footer>
-        <p style="text-align: center;"> &copy; 2025 TSHIDI'S KITCHEN</p>
+    
+    <footer role="contentinfo">
+        <p>&copy; 2025 TSHIDI'S KITCHEN | Authentic South African Cuisine</p>
     </footer>
 </body>
 </html>

@@ -131,7 +131,7 @@ My POE part 2
     │   ├── homemade-lemonade-fresh-lemons.jpg
     │   ├── lime-mojito-mint-cooling.jpg
     │   └── creamy-milkshake-various-flavors.jpg
-├── sauce-images/
+    ├── sauce-images/
 │   ├── marula-pepper-sauce-award-winning.jpg
 │   ├── traditional-chakalaka-jar.jpg
 │   └── peri-peri-sauce-fiery-chili.jpg

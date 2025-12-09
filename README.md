@@ -144,6 +144,7 @@ My POE part 2
     - added a javascript folder has been crearted so as a main.js page
     - added restrictions in the contact and enquiry page to validate formate
     - HTML5 used Semantic markup, ARIA labels, structured data
+    - CSS3: Grid, Flexbox, custom properties, animations
 
 ## REFERENCES
     geeksforgeeks. (2025, July 11). geeksforgeeks. Retrieved from geeksforgeeks: https://www.geeksforgeeks.org/html/html5-semantics/

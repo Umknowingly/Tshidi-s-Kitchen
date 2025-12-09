@@ -122,7 +122,7 @@ My POE part 2
     │   ├── pap-chakalaka-mealie-meal.jpg
     │   ├── greek-salad-feta-olives.jpg
     │   ├── russian-pie-savoury-mince.jpg
-│   ├── steak-salad-juicy-grilled.jpg
+    │   ├── steak-salad-juicy-grilled.jpg
 │   ├── vetkoek-fried-bread.jpg
 │   └── potjiekos-stew-three-legged-pot.jpg
 ├── drink-images/

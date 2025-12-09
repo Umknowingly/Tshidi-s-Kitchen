@@ -132,7 +132,7 @@ My POE part 2
     │   ├── lime-mojito-mint-cooling.jpg
     │   └── creamy-milkshake-various-flavors.jpg
     ├── sauce-images/
-│   ├── marula-pepper-sauce-award-winning.jpg
+    │   ├── marula-pepper-sauce-award-winning.jpg
 │   ├── traditional-chakalaka-jar.jpg
 │   └── peri-peri-sauce-fiery-chili.jpg
 └── team-images/

@@ -125,7 +125,7 @@ My POE part 2
     │   ├── steak-salad-juicy-grilled.jpg
     │   ├── vetkoek-fried-bread.jpg
     │   └── potjiekos-stew-three-legged-pot.jpg
-├── drink-images/
+    ├── drink-images/
 │   ├── cocktail-special-south-african.jpg
 │   ├── premium-coffee-rich-blend.jpg
 │   ├── homemade-lemonade-fresh-lemons.jpg

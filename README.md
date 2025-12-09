@@ -135,7 +135,7 @@ My POE part 2
     │   ├── marula-pepper-sauce-award-winning.jpg
     │   ├── traditional-chakalaka-jar.jpg
     │   └── peri-peri-sauce-fiery-chili.jpg
-└── team-images/
+    └── team-images/
     ├── tshidi-founder-head-chef.jpg
     ├── katlego-restaurant-manager.jpg
     └── thabo-marketing-manager.jpg

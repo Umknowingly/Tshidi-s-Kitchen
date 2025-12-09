@@ -143,7 +143,7 @@ My POE part 2
     - fixed the comsistancy if the logo on each individual page 
     - added a javascript folder has been crearted so as a main.js page
     - added restrictions in the contact and enquiry page to validate formate
-
+    - HTML5 used Semantic markup, ARIA labels, structured data
 
 ## REFERENCES
     geeksforgeeks. (2025, July 11). geeksforgeeks. Retrieved from geeksforgeeks: https://www.geeksforgeeks.org/html/html5-semantics/

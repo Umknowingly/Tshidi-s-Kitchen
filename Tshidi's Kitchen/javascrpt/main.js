@@ -1,5 +1,3 @@
-// main.js - Enhanced JavaScript for TSHIDI'S KITCHEN
-
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize all interactive elements
     initAccordions();
@@ -493,5 +491,5 @@ function loadGoogleMapsAPI() {
     document.head.appendChild(script);
 }
 
-// Export functions for global access
+//functions for global access
 window.initGoogleMap = initGoogleMap;

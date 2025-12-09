@@ -114,6 +114,31 @@ My POE part 2
 
 ## Part 3 
 
+assets/
+├── menu-images/
+│   ├── chicken-salad-grilled.jpg
+│   ├── mala-mogodu-traditional.jpg
+│   ├── pap-chakalaka-mealie-meal.jpg
+│   ├── greek-salad-feta-olives.jpg
+│   ├── russian-pie-savoury-mince.jpg
+│   ├── steak-salad-juicy-grilled.jpg
+│   ├── vetkoek-fried-bread.jpg
+│   └── potjiekos-stew-three-legged-pot.jpg
+├── drink-images/
+│   ├── cocktail-special-south-african.jpg
+│   ├── premium-coffee-rich-blend.jpg
+│   ├── homemade-lemonade-fresh-lemons.jpg
+│   ├── lime-mojito-mint-cooling.jpg
+│   └── creamy-milkshake-various-flavors.jpg
+├── sauce-images/
+│   ├── marula-pepper-sauce-award-winning.jpg
+│   ├── traditional-chakalaka-jar.jpg
+│   └── peri-peri-sauce-fiery-chili.jpg
+└── team-images/
+    ├── tshidi-founder-head-chef.jpg
+    ├── katlego-restaurant-manager.jpg
+    └── thabo-marketing-manager.jpg
+
     - fixed the comsistancy if the logo on each individual page 
     - added a javascript folder has been crearted so as a main.js page
     - added restrictions in the contact and enquiry page to validate formate

@@ -128,7 +128,7 @@ My POE part 2
     ├── drink-images/
     │   ├── cocktail-special-south-african.jpg
         │   ├── premium-coffee-rich-blend.jpg
-│   ├── homemade-lemonade-fresh-lemons.jpg
+    │   ├── homemade-lemonade-fresh-lemons.jpg
 │   ├── lime-mojito-mint-cooling.jpg
 │   └── creamy-milkshake-various-flavors.jpg
 ├── sauce-images/

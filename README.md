@@ -146,6 +146,8 @@ My POE part 2
     - HTML5 used Semantic markup, ARIA labels, structured data
     - CSS3: Grid, Flexbox, custom properties, animations
     - JavaScript: Interactive features, form validation, dynamic content
+    - Font Awesome: Icons for UI elements and social media
+    
 
 ## REFERENCES
     geeksforgeeks. (2025, July 11). geeksforgeeks. Retrieved from geeksforgeeks: https://www.geeksforgeeks.org/html/html5-semantics/

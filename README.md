@@ -123,8 +123,8 @@ My POE part 2
     │   ├── greek-salad-feta-olives.jpg
     │   ├── russian-pie-savoury-mince.jpg
     │   ├── steak-salad-juicy-grilled.jpg
-│   ├── vetkoek-fried-bread.jpg
-│   └── potjiekos-stew-three-legged-pot.jpg
+    │   ├── vetkoek-fried-bread.jpg
+    │   └── potjiekos-stew-three-legged-pot.jpg
 ├── drink-images/
 │   ├── cocktail-special-south-african.jpg
 │   ├── premium-coffee-rich-blend.jpg

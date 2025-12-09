@@ -114,13 +114,14 @@ My POE part 2
 
 ## Part 3 
 
-assets/
-├── menu-images/
-│   ├── chicken-salad-grilled.jpg
-│   ├── mala-mogodu-traditional.jpg
-│   ├── pap-chakalaka-mealie-meal.jpg
-│   ├── greek-salad-feta-olives.jpg
-│   ├── russian-pie-savoury-mince.jpg
+
+    assets/
+    ├── menu-images/
+    │   ├── chicken-salad-grilled.jpg
+    │   ├── mala-mogodu-traditional.jpg
+    │   ├── pap-chakalaka-mealie-meal.jpg
+    │   ├── greek-salad-feta-olives.jpg
+    │   ├── russian-pie-savoury-mince.jpg
 │   ├── steak-salad-juicy-grilled.jpg
 │   ├── vetkoek-fried-bread.jpg
 │   └── potjiekos-stew-three-legged-pot.jpg

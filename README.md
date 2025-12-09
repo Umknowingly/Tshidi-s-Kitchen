@@ -130,7 +130,7 @@ My POE part 2
         │   ├── premium-coffee-rich-blend.jpg
     │   ├── homemade-lemonade-fresh-lemons.jpg
     │   ├── lime-mojito-mint-cooling.jpg
-│   └── creamy-milkshake-various-flavors.jpg
+    │   └── creamy-milkshake-various-flavors.jpg
 ├── sauce-images/
 │   ├── marula-pepper-sauce-award-winning.jpg
 │   ├── traditional-chakalaka-jar.jpg

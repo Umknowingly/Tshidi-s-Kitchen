@@ -147,7 +147,7 @@ My POE part 2
     - CSS3: Grid, Flexbox, custom properties, animations
     - JavaScript: Interactive features, form validation, dynamic content
     - Font Awesome: Icons for UI elements and social media
-    
+    - Google Maps API: Interactive location map
 
 ## REFERENCES
     geeksforgeeks. (2025, July 11). geeksforgeeks. Retrieved from geeksforgeeks: https://www.geeksforgeeks.org/html/html5-semantics/

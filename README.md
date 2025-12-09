@@ -149,6 +149,7 @@ My POE part 2
     - Font Awesome: Icons for UI elements and social media
     - Google Maps API: Interactive location map
     - Google Forms: Embedded enquiry form
+    - Social Media Integration: Links and sharing capabilities
 
 ## REFERENCES
     geeksforgeeks. (2025, July 11). geeksforgeeks. Retrieved from geeksforgeeks: https://www.geeksforgeeks.org/html/html5-semantics/

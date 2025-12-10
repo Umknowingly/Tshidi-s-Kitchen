@@ -151,6 +151,8 @@ My POE part 2
     - Google Forms: Embedded enquiry form
     - Social Media Integration: Links and sharing capabilities
     - Interactive Google Map: Enhanced with custom markers and directions
+    - Gallery Lightbox: Full-screen image viewing with navigation
+
 
 ## REFERENCES
     geeksforgeeks. (2025, July 11). geeksforgeeks. Retrieved from geeksforgeeks: https://www.geeksforgeeks.org/html/html5-semantics/

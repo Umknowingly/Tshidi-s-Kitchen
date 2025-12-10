@@ -153,6 +153,7 @@ My POE part 2
     - Interactive Google Map: Enhanced with custom markers and directions
     - Gallery Lightbox: Full-screen image viewing with navigation
     - Enhanced SEO: Optimized title tags and meta descriptions
+    - Proper Image Management: Optimized naming and descriptive alt text
 
 ## REFERENCES
     geeksforgeeks. (2025, July 11). geeksforgeeks. Retrieved from geeksforgeeks: https://www.geeksforgeeks.org/html/html5-semantics/

@@ -7,10 +7,10 @@
     box-sizing: border-box;
 }
 
-/* Import Perfect Bomber font */
+/* Importation of Perfect Bomber font */
 @import url('https://fonts.cdnfonts.com/css/perfect-bomber');
 
-/* Root Variables for Color Palette - Rosewood Reverie */
+/* Color Palette - Rosewood Reverie */
 :root {
     /* Primary Colors */
     --rosewood: #65000B;

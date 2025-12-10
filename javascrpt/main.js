@@ -33,7 +33,7 @@ function initAccordions() {
     });
 }
 
-// 2. Gallery Lightbox
+// Gallery Lightbox
 function initGalleryLightbox() {
     const galleryImages = document.querySelectorAll('.gallery-image, .product-image img, .item-image img');
     const lightbox = document.createElement('div');

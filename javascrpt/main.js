@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initGoogleMap();
 });
 
-//  Accordion functionality for FAQ sections
+// Accordion functionality for FAQ sections
 function initAccordions() {
     const accordions = document.querySelectorAll('details');
     
@@ -205,7 +205,7 @@ function initSearchFunctionality() {
     });
 }
 
-// 4. Form Validation
+// Form Validation
 function initFormValidation() {
     const forms = document.querySelectorAll('form');
     
@@ -324,7 +324,7 @@ function showFormSuccess(form) {
     successMessage.scrollIntoView({ behavior: 'smooth' });
 }
 
-// 5. Dynamic Content
+// Dynamic Content
 function initDynamicContent() {
     // Update featured products dynamically
     updateFeaturedProducts();
@@ -418,7 +418,7 @@ function updateSpecialOffers() {
     setInterval(rotateOffers, 8000); // Change every 8 seconds
 }
 
-// 6. Google Maps Integration
+// Google Maps Integration
 function initGoogleMap() {
     const mapContainers = document.querySelectorAll('.map-container');
     

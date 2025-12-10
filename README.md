@@ -164,3 +164,6 @@ My POE part 2
     geeksforgeeks. (2025,  July 23). geeksforgeeks. Retrieved from geeksforgeeks: https://www.geeksforgeeks.org/html/html-responsive-web-design/
 
     geeksforgeeks. (2025, May 02). geeksforgeeks. Retrieved from geeksforgeeks: https://www.geeksforgeeks.org/html/html-span-tag/
+
+     CSS-Tricks (2024) CSS-Tricks.
+    Retrieved from: https://css-tricks.com/

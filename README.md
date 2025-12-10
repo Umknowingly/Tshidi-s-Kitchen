@@ -173,3 +173,6 @@ My POE part 2
 
     MDN Web Docs (2024) MDN Web Docs. 
     Retrieved from: https://developer.mozilla.org/
+
+    W3Schools (2024) W3Schools Online Web Tutorials. 
+    Retrieved from: https://www.w3schools.com/ 

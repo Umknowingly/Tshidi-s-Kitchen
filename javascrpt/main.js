@@ -144,8 +144,7 @@ function initSearchFunctionality() {
     }
     
     function searchContent(query) {
-        // This would search through your actual content
-        // For demonstration, we'll use a simple approach
+        // This would search through the actual content
         const searchableElements = document.querySelectorAll('h1, h2, h3, p, .product-card, .menu-item');
         const results = [];
         

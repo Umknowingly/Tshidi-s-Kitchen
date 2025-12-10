@@ -137,15 +137,14 @@ function initSearchFunctionality() {
             return;
         }
         
-        // Search through content (simplified - in real implementation, you'd search through your actual content)
+        // Search through content (simplified)
         const results = searchContent(query);
         
         displaySearchResults(results, query);
     }
     
     function searchContent(query) {
-        // This would search through your actual content
-        // For demonstration, we'll use a simple approach
+        // This would search through the actual content
         const searchableElements = document.querySelectorAll('h1, h2, h3, p, .product-card, .menu-item');
         const results = [];
         
@@ -206,7 +205,7 @@ function initSearchFunctionality() {
     });
 }
 
-// 4. Form Validation
+// Form Validation
 function initFormValidation() {
     const forms = document.querySelectorAll('form');
     
@@ -325,7 +324,7 @@ function showFormSuccess(form) {
     successMessage.scrollIntoView({ behavior: 'smooth' });
 }
 
-// 5. Dynamic Content
+// Dynamic Content
 function initDynamicContent() {
     // Update featured products dynamically
     updateFeaturedProducts();
@@ -419,7 +418,7 @@ function updateSpecialOffers() {
     setInterval(rotateOffers, 8000); // Change every 8 seconds
 }
 
-// 6. Google Maps Integration
+// Google Maps Integration
 function initGoogleMap() {
     const mapContainers = document.querySelectorAll('.map-container');
     

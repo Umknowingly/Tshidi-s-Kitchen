@@ -107,7 +107,7 @@ function initGalleryLightbox() {
     });
 }
 
-// 3. Search Functionality
+// Search Functionality
 function initSearchFunctionality() {
     const searchContainer = document.createElement('div');
     searchContainer.className = 'search-container';

@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initGoogleMap();
 });
 
-// 1. Accordion functionality for FAQ sections
+// Accordion functionality for FAQ sections
 function initAccordions() {
     const accordions = document.querySelectorAll('details');
     
@@ -22,7 +22,7 @@ function initAccordions() {
             }
         });
         
-        // Add animation
+        // Added animation
         accordion.addEventListener('toggle', function() {
             if (accordion.open) {
                 accordion.style.maxHeight = accordion.scrollHeight + 'px';

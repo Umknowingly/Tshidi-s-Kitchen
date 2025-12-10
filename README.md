@@ -170,3 +170,6 @@ My POE part 2
 
     Google Developers (2024) Google for Developers. 
     Retrieved from: https://developers.google.com/ 
+
+    MDN Web Docs (2024) MDN Web Docs. 
+    Retrieved from: https://developer.mozilla.org/

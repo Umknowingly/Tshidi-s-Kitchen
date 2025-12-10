@@ -137,7 +137,7 @@ function initSearchFunctionality() {
             return;
         }
         
-        // Search through content (simplified - in real implementation, you'd search through your actual content)
+        // Search through content (simplified)
         const results = searchContent(query);
         
         displaySearchResults(results, query);

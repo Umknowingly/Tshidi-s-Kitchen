@@ -22,7 +22,7 @@ function initAccordions() {
             }
         });
         
-        // Add animation
+        // Added animation
         accordion.addEventListener('toggle', function() {
             if (accordion.open) {
                 accordion.style.maxHeight = accordion.scrollHeight + 'px';
